@@ -4,7 +4,10 @@ import path from "path";
 import { Server } from "./Server";
 import Route from "./Route";
 
-const server = new Server();
+let port = 8080;
+let defaultRedirect = 'https://igalaxy.dev';
+
+const server = new Server({port: port, defaultRedirect: defaultRedirect});
 
 fs.readFile(path.join(__dirname, '../routes.json'), async (err, data) => {
     if(err) return console.error(err);
