@@ -10,5 +10,17 @@
     {
         "path": "twitch",
         "result": "https://twitch.tv/igalaxyofficial"
+    },
+    {
+        "path": "github",
+        "result": "https://github.com/iGalaxyYT"
+    },
+    {
+        "path": "source",
+        "result": "https://github.com/iGalaxyYT/url-shortener"
+    },
+    {
+        "path": "porpoise",
+        "result": "https://github.com/porpoise/porpoise"
     }
 ]
